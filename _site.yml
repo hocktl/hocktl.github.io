@@ -1,23 +1,31 @@
 navbar:
   title: "Kinh tế lượng với R"
   left:
-    - text: "R Help"
+    - text: "Data manipulation"
       menu:
-        - text: "R Commands"
+        - text: "Working directory"
           href: RCommands.html
-        - text: "R Markdown Hints"
+        - text: "Import - Export"
           href: RMarkdownHints.html
-        - text: "R Cheatsheets & Notes"
+        - text: "Merge - Append"
           href: RCheatSheetsAndNotes.html
-        - text: "Data Sources"
+        - text: "Filter - Select"
           href: DataSources.html
-    - text: "Describing Data"
+        - text: "Group"
+          href: DataSources.html
+        - text: "Create - Drop variables"
+          href: DataSources.html
+        - text: "Rename - Recode"
+          href: DataSources.html
+    - text: "Description statistics"
       menu:
-        - text: "Graphical Summaries"
-          href: GraphicalSummaries.html
         - text: "Numerical Summaries"
           href: NumericalSummaries.html
-    - text: "Making Inference"
+        - text: "Table"
+          href: GraphicalSummaries.html
+        - text: "Graph"
+          href: GraphicalSummaries.html
+    - text: "Test statistics"
       menu:
         - text: "Making Inference"
           href: MakingInference.html
@@ -37,20 +45,23 @@ navbar:
           href: ChiSquaredTests.html
         - text: "Randomization"
           href: PermutationTests.html
-    - text: "Analyses"
+    - text: "Econometrics Methods"
       menu:
-        - text: "Analysis Rubric"
+        - text: "Time series"
           href: ./Analyses/AnalysisRubric.html
-        - text: "Good Example Analysis"
+        - text: "Panel data"
           href: ./Analyses/StudentHousing.html
-        - text: "Poor Example Analysis"
+        - text: "Regression"
           href: ./Analyses/StudentHousingPOOR.html
-        - text: "Rent"
+        - text: "Factor analysis"
           href: ./Analyses/Rent.html
-        - text: "Stephanie"
+        - text: "Impact evaluation"
           href: ./Analyses/Stephanie.html
-        - text: "High School Seniors"
+        - text: "Endogeneity"
           href: ./Analyses/t Tests/HighSchoolSeniors.html
+    - text: "Elementary statistics"
+      menu:
+        - text: "Time series"
         - text: "Recalling Words"
           href: ./Analyses/Wilcoxon Tests/RecallingWords.html
         - text: "Food"
@@ -67,12 +78,11 @@ navbar:
           href: ./Analyses/Chi Squared Tests/MyChiSquaredTest.html
 
 
-          
+
 output_dir: '.'
 
-output: 
+output:
   html_document:
     theme: cerulean
     css: styles.css
     highlight: tango
-  
